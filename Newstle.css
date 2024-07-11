@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.scroll-container {
+    width: 300px;
+    height: 150px;
+    overflow-y: scroll; /* Enables vertical scrollbar */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    border: 1px solid #ccc; /* Adds a border for visibility */
+    padding: 10px; /* Adds padding inside the container */
+    background-color: #f9f9f9; /* Background color for container */
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    height: 400px;
+    width: 450px;
+}
+.backround-image{
+    position: absolute;
+    top:0%;
+
+}
+.navbar {
+    display:flex ;
+    align-items:center;
+    justify-content: space-between;
+    padding:20px 40px;
+    position: absolute;
+    width: 100%;
+    top: 10;
+    text-emphasis-color: white;
+
+}   
+.rectangle{
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    margin: 0%;
+    height: 400px;
+    border-radius: 2px;
+    border-color: blue;
+}
+.First{
+    position: relative;
+    border-radius: 4px dashed red;
+    
+}
+.FirstText{
+    position: absolute;
+    left: 215px;
+    top: 0px;
+    border-radius: 4px dashed red;
+    
+}
+.Heading{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.SecondText{
+    position: absolute;
+    left: 215px;
+    top: 172px;
+    
+}.ThirdText{
+    position: absolute;
+    left: 215px;
+    top: 310px;
+    
+}
+.Hero{
+    position: absolute;
+    left: 679px;
+    top: 20px;
+}
+
+
+
