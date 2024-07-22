@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.nav-links {
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.scroll-container {
+  width: 50%;
+  height: 150px;
+  overflow-y: scroll; /* Enables vertical scrollbar */
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  border: 1px solid #ffffff; /* Adds a border for visibility */
+  padding: 10px; /* Adds padding inside the container */
+  background-color: #f9f9f9; /* Background color for container */
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  height: 400px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+.scroll-container::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #cec3b1; /* Background of the scrollbar track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: rgb(114, 86, 42); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounds the corners of the scrollbar thumb */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.backround-image {
+  position: absolute;
+  top: 0%;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: absolute;
+  width: 100%;
+  top: 10;
+  text-emphasis-color: white;
+}
+
+:first img {
+  position: relative;
+}
+
+.Heading {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.Third {
+  position: absolute;
+  top: 320px;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  cursor: pointer;
+  gap: 5px;
+  margin-right: 5px;
+}
+
+.Hero {
+  position: absolute;
+  left: 680px;
+  top: 100px;
+  width: 700px;
+}
+
+.First {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-right: 5px;
+  text-align: justify;
+}
+
+.First:hover {
+  color: white;
+  background-color: #987338;
+}
+
+.First p:hover {
+  color: rgb(226, 197, 197);
+}
+
+.Second {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-right: 5px;
+  text-align: justify;
+}
+
+.Cont {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-right: 5px;
+  text-align: justify;
+}
+
+.Rectangle {
+  background-color: #ffffff;
+  width: 680px;
+  height: 700px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
